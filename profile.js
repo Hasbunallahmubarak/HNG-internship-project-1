@@ -2,7 +2,7 @@
 var x,weekday,day,date;
 x = new Date();
 weekday = x.getDay();
-date = x.getUTCMilliseconds();
+date = x.getTime();
 switch(weekday){
 	case 0:
 		day = "Sunday";
